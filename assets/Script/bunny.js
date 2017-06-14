@@ -23,8 +23,13 @@ cc.Class({
         number: cc.Label
     },
 
+    return () {
+        cc.director.loadScene("Benchmark");
+    },
+
     // use this for initialization
     onLoad: function () {
+        cc.director.setDisplayStats(true);
         if (!cc.sys.isNative) {
             var logo = document.createElement('img');
             logo.src = 'res/raw-assets/resources/HelloWorld.png';
@@ -142,7 +147,7 @@ cc.Class({
             }
         }
 
-        var start = new Date().getTime();
+        // var start = new Date().getTime();
         for (i = 0; i < bunnys.length; i++) 
         {
             bunny = bunnys[i];
@@ -178,7 +183,7 @@ cc.Class({
             }
             bunny.setPosition(x, y);
         }
-        var end = new Date().getTime();
+        // var end = new Date().getTime();
         // console.log('Update / Delta Time =', end-start, '/', dt*1000, '=', ((end-start)/(dt*1000)).toFixed(2));
     },
 });
