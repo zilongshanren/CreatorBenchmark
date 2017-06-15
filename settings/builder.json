@@ -17,10 +17,10 @@
     "portrait": false,
     "upsideDown": false
   },
-  "packageName": "org.cocos2d.CreatorBenchmark",
+  "packageName": "org.cocos2d.SM33",
   "privateKey": "",
   "renderMode": "0",
-  "startScene": "e4a0b62f-dd9b-46f1-9b89-22c919144461",
-  "title": "CreatorBenchmark",
+  "startScene": "beb1189f-ebf5-423b-942f-dbfb39393b8e",
+  "title": "sm33",
   "webOrientation": "auto"
 }

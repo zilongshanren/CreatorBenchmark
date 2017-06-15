@@ -111,7 +111,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "New Label",
+    "_name": "Title",
     "_objFlags": 0,
     "_parent": {
       "__id__": 2
@@ -142,7 +142,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 0,
+      "width": 197.89,
       "height": 40
     },
     "_rotationX": 0,
@@ -151,8 +151,8 @@
     "_scaleY": 1,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": 0,
-      "y": 0
+      "x": -8,
+      "y": 277
     },
     "_skewX": 0,
     "_skewY": 0,
@@ -177,7 +177,7 @@
     "_N$file": null,
     "_isSystemFontUsed": true,
     "_spacingX": 0,
-    "_N$string": "",
+    "_N$string": "Bunny Test",
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
     "_N$fontFamily": "Arial",

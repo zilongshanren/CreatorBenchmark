@@ -35,6 +35,11 @@ cc.Class({
     startBunnyTest: function () {
         cc.testScene = "bunny";
         cc.director.loadScene("BunnyTest");
+    },
+
+    startSpriteTest: function () {
+        cc.testScene = "spriteTest";
+        cc.director.loadScene("SpriteTest");
     }
 
     // called every frame, uncomment this function to activate update callback
