@@ -14,6 +14,14 @@ cc.Class({
                 testFunc = this.createNodeTest.bind(this);
                 this.titleLabel.string = "createNode Test";
                 break;
+            case 'createPrefabTest':
+                testFunc = this.createNodeTest.bind(this);
+                this.titleLabel.string = "createPrefab Test";
+                break;
+            case 'createComponentTest':
+                testFunc = this.createNodeTest.bind(this);
+                this.titleLabel.string = "createComponent Test";
+                break;
         }
 
         this.statusLabel.string = "Tests will started in 1s...";
@@ -25,12 +33,16 @@ cc.Class({
 
     },
 
+    return: function () {
+        cc.director.loadScene("Benchmark");
+    },
+
     createNodeTest: function() {
         var suite = new Benchmark.Suite;
         var that = this;
-
         suite.add('Create Node Test', function() {
-                new cc.Node();
+            var node = new cc.Node();
+            node.addComponent(cc.Sprite);
             })
             // add listeners
             .on('cycle', function(event) {
@@ -39,7 +51,6 @@ cc.Class({
                 that.statusLabel.string += "\n";
             })
             .on('start', function() {
-
             })
             .on('complete', function() {})
             // run async

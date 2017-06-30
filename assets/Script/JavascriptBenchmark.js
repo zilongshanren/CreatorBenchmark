@@ -37,8 +37,18 @@ cc.Class({
         cc.director.loadScene("BunnyTest");
     },
 
-    startSpriteTest: function () {
+    startNodeTest: function () {
         cc.testScene = "createNodeTest";
+        cc.director.loadScene("SpriteTest");
+    },
+
+    startPrefabTest: function () {
+        cc.testScene = "createPrefabTest";
+        cc.director.loadScene("SpriteTest");
+    },
+
+     startComponent: function () {
+        cc.testScene = "createComponentTest";
         cc.director.loadScene("SpriteTest");
     }
 
