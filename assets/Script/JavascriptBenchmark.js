@@ -38,7 +38,7 @@ cc.Class({
     },
 
     startSpriteTest: function () {
-        cc.testScene = "spriteTest";
+        cc.testScene = "createNodeTest";
         cc.director.loadScene("SpriteTest");
     }
 

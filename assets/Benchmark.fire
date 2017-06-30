@@ -1864,7 +1864,7 @@
       "__id__": 2
     },
     "component": "JavascriptBenchmark",
-    "handler": "startBunnyTest",
+    "handler": "startSpriteTest",
     "customEventData": ""
   },
   {

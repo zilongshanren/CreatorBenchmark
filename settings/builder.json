@@ -17,10 +17,10 @@
     "portrait": false,
     "upsideDown": false
   },
-  "packageName": "org.cocos2d.SM33",
+  "packageName": "org.cocos2d.SM20",
   "privateKey": "",
   "renderMode": "0",
   "startScene": "beb1189f-ebf5-423b-942f-dbfb39393b8e",
-  "title": "sm33",
+  "title": "sm20",
   "webOrientation": "auto"
 }
