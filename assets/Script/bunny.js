@@ -24,11 +24,18 @@ cc.Class({
     },
 
     return () {
+         if (CC_JSB) {
+            cc.sys.garbageCollect();
+         }
         cc.director.loadScene("Benchmark");
     },
 
     // use this for initialization
     onLoad: function () {
+        bunnys.length = 0;
+        bunnyFrames.length = 0;
+        currentFrame = null;
+
         cc.director.setDisplayStats(true);
         if (!cc.sys.isNative) {
             var logo = document.createElement('img');

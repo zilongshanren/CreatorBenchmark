@@ -133,6 +133,9 @@ cc.Class({
     },
 
     return () {
+        if (CC_JSB) {
+            cc.sys.garbageCollect();
+        }
         cc.director.loadScene("Benchmark");
     }
 

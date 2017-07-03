@@ -289,7 +289,11 @@
     },
     "titleLabel": {
       "__id__": 4
-    }
+    },
+    "testPrefab": {
+      "__uuid__": "1a2c5510-0a07-401a-b5a1-d2e4f24fff0d"
+    },
+    "_nodes": []
   },
   {
     "__type__": "cc.Node",
