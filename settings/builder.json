@@ -22,5 +22,7 @@
   "renderMode": "0",
   "startScene": "beb1189f-ebf5-423b-942f-dbfb39393b8e",
   "title": "sm20",
-  "webOrientation": "auto"
+  "webOrientation": "auto",
+  "includeSDKBox": false,
+  "md5Cache": false
 }
